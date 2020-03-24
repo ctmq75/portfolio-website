@@ -1,0 +1,74 @@
+li {
+    margin-right: 10px;
+}
+.header {
+    border-bottom: 1px solid grey;
+    border-width: 90%;
+ 
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navLinks{
+    display: none;
+    
+}
+
+#linkList {
+    list-style-type: none;
+    display: flex;
+}
+
+.proj-title{
+    text-align: center;
+}
+
+.proj-screenshot {
+    width: 70%;
+    height: auto;
+}
+.proj-template {
+    width: 80%;
+    border: 1px solid black;
+    padding: 1%;
+    margin: 0 auto;
+
+}
+.proj-img{
+    text-align: center;
+}
+
+.techIcon{
+    width: 2%;
+    height: auto;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+    .navLinks{
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+        
+    }  
+    #burger{
+        display: none;
+
+    }  
+    
+  }
+
+
+
+
+
+
+
+
